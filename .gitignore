@@ -1,0 +1,25 @@
+# Archivos sensibles — NUNCA subir a GitHub
+token.txt
+*.env
+.env*
+
+# Cache de API (opcional: puedes subirlo o no)
+# respuesta.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
